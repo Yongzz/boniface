@@ -1,2 +1,4 @@
 name: St. Boniface
+safe: true
+lsi: false
 pygments: true
