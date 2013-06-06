@@ -1,0 +1,255 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #efefef;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 0em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+ul.posts li {
+  line-height: 1.75em;
+}
+
+ul.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  width: 1028px;
+}
+
+.site .header {
+
+  background: #008A09; /* for non-css3 browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#2aa850), to(#008a09)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #2aa850,  #008a09); /* for firefox 3.6+ */
+  padding: 15px;
+  font-size: 22px;
+  width: 100%;
+}
+
+.site .header a {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.site .header h1.title {
+  display: inline-block;
+  -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.5)));
+;
+  font-size: 32px;
+}
+
+.site .header h1.title a {
+  color: #FFF;
+}
+
+.site .header h1.title a:hover {
+  color: #FFF;
+}
+
+.site .header .header_menu {
+  float: right;
+  margin-top: 5px;
+}
+
+.site .header a.extra {
+  color: #fff;
+  margin-left: 1em;
+}
+
+.site .header a.extra:hover {
+  color: #fff;
+}
+
+.site .meta {
+  color: #aaa;
+}
+
+.site .content {
+  margin: 50px;
+}
+
+.site .footer {
+  position: absolute;
+  left: 0px;
+  top: 650px;
+  width: 1018px;
+  font-size: 80%;
+  font-weight: bold;
+  color: #666;
+  background-color: #008a09;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.site .footer .contact {
+  float: left;
+  margin-right: 3em;
+  margin-left: 1em;
+}
+
+.site .footer .contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site .footer .contact a:hover {
+  color: #fff;
+}
+
+.site .footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+.site .footer .rss img {
+  border: 0;
+}
+
+.site #home #main_box {
+  position: absolute;
+  left: 25px;
+  top: 90px;
+  border: 1px solid #2aa850;
+  background: #ccd8cc;
+  padding: 15px;
+  color: #444;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.site #home #main_box #aktuelles {
+  height: 150px;
+}
+
+.site #home #main_box #boni_nachrichten {
+  height: 150px;
+}
+.site #home #main_box #boni_nachrichten #thumbnail{
+  position: absolute;
+  left: 220px;
+  top: 150px;	
+}
+
+.site #home #main_box #adresse {
+
+}
+
+.site #home #main_box #adresse #karte{
+  position: absolute;
+  left: 220px;
+  top: 300px;	
+}
+
+.site #home #title_image_1 {
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
+
+.site #home #title_image_2 {
+  -moz-box-shadow: 0 0 10px #888;
+  -webkit-box-shadow: 0 0 10px #888;
+  box-shadow: 0 0 10px #888;
+-webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, transparent), to(rgba(255,255,255,0.5)));
+  border: 2px solid #ffffff;
+  position: absolute;
+  left: 530px;
+  top: 250px;
+}
+
+.site #home #title_image_3 {
+  position: absolute;
+  left: 700px;
+  top: 100px;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+#post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+#post ul, #post ol {
+  margin-left: 1.35em;
+}
+
+#post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+#post pre code {
+  border: none;
+}
+
+/* terminal */
+#post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+#post pre.terminal code {
+  background-color: #333;
+}
