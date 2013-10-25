@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Sankt Boniface - deutschsprachige katholische Kirchengemeine in Genf</title>
+        <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
         <!-- syntax highlighting CSS -->
@@ -18,7 +18,7 @@
         <div class="container">
           <div class="site">
             <div class="header">
-              <h1 class="title"><a href="/boniface">St. Boniface</a></h1>
+              <h1 class="title"><a href="/boniface">{{ site.name }}</a></h1>
               <span class="header_menu">
                 <a class="extra" href="/boniface/impulse">Impluse</a>
                 <a class="extra" href="/boniface/gemeindeleben">Gemeindeleben</a>
@@ -27,55 +27,7 @@
               </span>
             </div>
             <div class="content">
-                <div id="home">
-
-  <div id="main_box">
-    <div id="aktuelles">
-      <h1>Aktuelles</h1>
-      <p style="margin-top: 20px;">
-        5. Juni, 11:00, &Ouml;kumenischer Familiengottesdienst<br>
-        16. Juni, 10:00, Dankgottesdienst der Erstkommunikanten<br>
-        23. Juni, 10:30, Gottesdienst der Kolpingfamilie
-      </p>
-      <p style="margin-top: 5px;">
-        <a href="/boniface/termine">weitere Termine…</a>
-      </p>
-    </div>
-    <div id="boni_nachrichten">
-      <h1>Boni-Nachrichten</h1>
-      <p style="margin-top: 20px;">
-        aktuelle Ausgabe<br>
-      </p>
-      <p style="margin-top: 5px;">
-        <a href="/boniface/boni_nachrichten">&auml;ltere Ausgaben…</a>
-      </p>
-      <div id="thumbnail">
-        <img src="/boniface/images/boni_nachrichten.png" alt="Karte">
-      </div>
-    </div>
-    <div id="adresse">
-     <h1>Wo Sie uns finden</h1>
-      <p style="margin-top: 20px;">
-     Verein der Kirchgemeinde<br>
-     St. Boniface<br>
-     14, Avenue du Mail<br>
-     1205 Gen&eacute;ve<br>
-     Tel: +41.(0)22.320.96.82<br>
-     Email: <a href="mailto:info@boniface-genf.ch">info@boniface-genf.ch</a>
-      </p>
-      <div id="karte">
-        <img src="/boniface/images/karte.png" alt="Karte">
-      </div>
-    </div>
-  </div>
-  <div id="title_image_2">
-    <img width="450px" src="/boniface/images/kirche.png" alt="Kirche">
-  </div>
-  <div id="title_image_3">
-    <img width="128px" src="/boniface/images/logo.png" alt="St. Boniface">
-  </div>
-</div>
-
+                {{ content }}
             </div>
             <div class="footer">
                <div class="contact">
