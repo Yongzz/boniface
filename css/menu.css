@@ -21,12 +21,9 @@
 
 /* menu::base */
 div#menu {
-/*    height:41px; */
+    height:41px;
     background:url(/boniface/images/main-bg.png) repeat-x;
-    padding: 15px;
-    font-size: 22px;
-    width: 100%;
-	 float: right;
+    float: right;
 }
 
 div#menu ul {
